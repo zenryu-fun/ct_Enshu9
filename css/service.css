@@ -1,0 +1,19 @@
+.service-item {
+  padding: 20px 0;
+  border-top: 1px solid #222;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-item-img {
+  width: 290px;
+}
+
+.service-item-detail {
+  width: calc(100% - 330px);
+}
+
+.service-item:last-child {
+  border-bottom: 1px solid #222;
+}
