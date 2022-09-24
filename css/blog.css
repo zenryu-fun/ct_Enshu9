@@ -23,3 +23,14 @@
 .blog-item:nth-child(3n) {
   margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .blog-item {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .blog-item:first-child {
+    margin-top: 0;
+  }
+}

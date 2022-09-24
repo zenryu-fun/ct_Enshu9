@@ -1,4 +1,3 @@
-
 // TOPへ戻る 
 function scrollTop(elem) {
   const target = document.getElementById(elem);
@@ -28,16 +27,10 @@ window.addEventListener('click', (e) => {
   }
 });
 
-// ﾊﾝﾊﾞｰｶﾞｰﾒﾆｭｰ
+// ﾊﾝﾊﾞｰｶﾞｰ&ﾄﾞﾛﾜｰﾒﾆｭｰ
 const target = document.getElementById("menu");
 target.addEventListener('click', () => {
   target.classList.toggle('open');
-});
-
-// ﾄﾞﾛﾜｰﾒﾆｭｰ
-const target = document.getElementById("menu");
-target.addEventListener('click', () => {
-  target.classList.toggle('open');
-  const nav = document.getElementById("nav");
+  const nav = document.getElementById("drawer-nav");
   nav.classList.toggle('in');
 });

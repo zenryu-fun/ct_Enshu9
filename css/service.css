@@ -17,3 +17,13 @@
 .service-item:last-child {
   border-bottom: 1px solid #222;
 }
+
+@media screen and (max-width: 768px) {
+  .service-item-detail {
+    width: 100%;
+  }
+
+  .service-item-img {
+    width: 100%;
+  }
+}

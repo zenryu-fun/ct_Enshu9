@@ -106,3 +106,15 @@
   line-height: 10;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .top-service-item {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .top-blog-item {
+    width: 100%;
+    margin-right: 0;
+  }
+}
